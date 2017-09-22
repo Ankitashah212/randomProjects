@@ -46,7 +46,13 @@ switch (operations) {
 
     case 'alg':
         //lets assume that x y  or what ever is always in first position 
+
+        //test cases
         // 4x - 2 = 18
+        // 3x + 5 = 29
+        // 2a * 2 = 32
+        // 8b / 2 = 4
+
         var unknown = process.argv[3];
         var airOper = process.argv[4];
         var known = parseFloat(process.argv[5]);
@@ -82,7 +88,7 @@ switch (operations) {
         break;
 
     default:
-    
+
         break;
 
 }
